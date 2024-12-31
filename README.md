@@ -40,8 +40,8 @@ Discord Bot to aplikacja, która oferuje różne funkcje, takie jak system antys
 
     ```json
     {
-      "testServer": "", // ID serwera testowego
-      "clientId": "",  // ID bota
+      "testServer": "", 
+      "clientId": "", 
       "devs": [""] 
     }
     ```
