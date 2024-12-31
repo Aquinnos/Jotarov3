@@ -68,10 +68,10 @@ Discord Bot Jotarov3 is an application that offers various features such as anti
 
 ## Project Structure
 
-- `index.js`: Główny plik uruchamiający bota.
-- `handlers/`: Katalog zawierający różne moduły obsługi zdarzeń, takie jak `antiSpamHandler.js`, `antiInviteHandler.js`, `expHandler.js`.
-- `commands/`: Katalog zawierający pliki z komendami bota, takie jak `pl.js`, `top.js`, `resetExp.js`, `zoo.js`, `ora.js`, `timeout.js`.
-- `utils/`: Katalog zawierający pomocnicze moduły, takie jak `commandLoader.js`.
+- `index.js`: The main file that starts the bot.
+- `handlers/`: Directory containing various event handler modules such as `antiSpamHandler.js`, `antiInviteHandler.js`, `expHandler.js`.
+- `commands/`: Directory containing bot command files such as `pl.js`, `top.js`, `resetExp.js`, `zoo.js`, `ora.js`, `timeout.js`.
+- `utils/`: Directory containing utility modules such as `commandLoader.js`.
 
 ## Usage
 
