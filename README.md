@@ -80,7 +80,7 @@ Discord Bot Jotarov3 to aplikacja, która oferuje różne funkcje, takie jak sys
 - **pl**: Pokazuje twój poziom mocy.
 - **top**: Wyświetla top użytkowników z najwyższym poziomem mocy.
 - **resetpl**: Resetuje wszystkie dane pl (poziomów mocy).
-- **zoo**: Wysyła użytkownika do zoo.
+- **zoo**: Wysyła użytkownika do zoo (musisz mieć stworzony specjalnie kanał i skopiować jego ID).
 - **ora**: Wykonuje sekwencję cutscenki i banuje użytkownika.
 - **timeout**: Mutuje użytkownika na określony czas.
 
@@ -107,3 +107,8 @@ Discord Bot Jotarov3 to aplikacja, która oferuje różne funkcje, takie jak sys
 ## Wkład
 
 Jeśli chcesz przyczynić się do rozwoju projektu, zapraszam do forka repozytorium i tworzenia pull requestów. Proszę upewnij się, że Twoje zmiany są dobrze udokumentowane i przetestowane.
+
+
+## Licencja
+
+Ten projekt jest licencjonowany na warunkach licencji MIT. Zobacz plik `LICENSE` po więcej informacji.
