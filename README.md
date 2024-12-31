@@ -79,7 +79,7 @@ Discord Bot Jotarov3 to aplikacja, która oferuje różne funkcje, takie jak sys
 
 - **pl**: Pokazuje twój poziom mocy.
 - **top**: Wyświetla top użytkowników z najwyższym poziomem mocy.
-- **resetexp**: Resetuje wszystkie dane EXP.
+- **resetpl**: Resetuje wszystkie dane pl (poziomów mocy).
 - **zoo**: Wysyła użytkownika do zoo.
 - **ora**: Wykonuje sekwencję cutscenki i banuje użytkownika.
 - **timeout**: Mutuje użytkownika na określony czas.
@@ -98,10 +98,10 @@ Discord Bot Jotarov3 to aplikacja, która oferuje różne funkcje, takie jak sys
     /top
     ```
 
-- Aby zresetować wszystkie dane EXP, użyj komendy:
+- Aby zresetować wszystkie dane PL(poziom mocy), użyj komendy:
 
     ```bash
-    /resetexp
+    /resetpl
     ```
 
 ## Wkład
