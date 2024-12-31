@@ -1,42 +1,42 @@
 # Discord Bot Jotarov3
 
-Discord Bot Jotarov3 to aplikacja, która oferuje różne funkcje, takie jak system antyspamowy, antyreklama, zarządzanie doświadczeniem użytkowników i inne. Bot jest napisany w JavaScript przy użyciu biblioteki Discord.js.
+Discord Bot Jotarov3 is an application that offers various features such as anti-spam, anti-invite, user experience management, and more. The bot is written in JavaScript using the Discord.js library.
 
-## Funkcje
+## Features
 
-- **Antyspam**: Automatycznie mutuje użytkowników, którzy wysyłają zbyt wiele wiadomości w krótkim czasie.
-- **Antyreklama**: Automatycznie usuwa wiadomości zawierające zaproszenia do innych serwerów Discord i nadaje użytkownikowi rolę "zoo".
-- **System doświadczenia**: Śledzi doświadczenie użytkowników na podstawie ich aktywności na czacie.
-- **Komendy**: Różne komendy do zarządzania botem i interakcji z użytkownikami, takie jak `pl`, `top`, `resetpl`, `zoo`, `ora`, `timeout`.
+- **Anti-Spam**: Automatically mutes users who send too many messages in a short period.
+- **Anti-Invite**: Automatically deletes messages containing invites to other Discord servers and assigns the "zoo" role to the user.
+- **Experience System**: Tracks user experience based on their activity in the chat.
+- **Commands**: Various commands for managing the bot and interacting with users, such as `pl`, `top`, `resetpl`, `zoo`, `ora`, `timeout`.
 
-## Wymagania
+## Requirements
 
-- Node.js (wersja 16.6.0 lub nowsza)
-- Discord.js (wersja 13.0.0 lub nowsza)
-- Konto Discord i serwer, na którym bot będzie działał
+- Node.js (version 16.6.0 or higher)
+- Discord.js (version 13.0.0 or higher)
+- A Discord account and a server where the bot will operate
 
-## Instalacja
+## Installation
 
-1. Sklonuj repozytorium na swój lokalny komputer:
+1. Clone the repository to your local machine:
 
     ```bash
     git clone https://github.com/yourusername/discord-bot.git
     cd discord-bot
     ```
 
-2. Zainstaluj wymagane zależności:
+2. Install the required dependencies:
 
     ```bash
     npm install
     ```
 
-3. Utwórz plik [.env](http://_vscodecontentref_/0) w głównym katalogu projektu i dodaj swój token bota Discord:
+3. Create a [.env](http://_vscodecontentref_/0) file in the root directory of the project and add your Discord bot token:
 
     ```env
     TOKEN=your-discord-bot-token
     ```
 
-4. Upewnij się, że masz plik [config.json](http://_vscodecontentref_/1) z odpowiednimi wartościami:
+4. Ensure you have a [config.json](http://_vscodecontentref_/1) file with the appropriate values:
 
     ```json
     {
@@ -46,69 +46,68 @@ Discord Bot Jotarov3 to aplikacja, która oferuje różne funkcje, takie jak sys
     }
     ```
 
-## Uruchomienie
+## Running the Bot
 
-1. Aby uruchomić bota lokalnie, użyj polecenia:
+1. To run the bot locally, use the command:
 
     ```bash
     node index.js
     ```
 
-2. Alternatywnie, możesz użyć `nodemon` do automatycznego restartowania bota podczas zmian w kodzie:
+2. Alternatively, you can use `nodemon` to automatically restart the bot when changes are made:
 
     ```bash
     nodemon index.js
     ```
 
-3. Aby uruchomić bota na serwerze produkcyjnym, możesz użyć `pm2`:
+3. To run the bot in a production environment, you can use `pm2`:
 
     ```bash
     pm2 start index.js --name "discord-bot"
     ```
 
-## Struktura projektu
+## Project Structure
 
 - `index.js`: Główny plik uruchamiający bota.
 - `handlers/`: Katalog zawierający różne moduły obsługi zdarzeń, takie jak `antiSpamHandler.js`, `antiInviteHandler.js`, `expHandler.js`.
 - `commands/`: Katalog zawierający pliki z komendami bota, takie jak `pl.js`, `top.js`, `resetExp.js`, `zoo.js`, `ora.js`, `timeout.js`.
 - `utils/`: Katalog zawierający pomocnicze moduły, takie jak `commandLoader.js`.
 
-## Użycie
+## Usage
 
-### Komendy
+### Commands
 
-- **pl**: Pokazuje twój poziom mocy.
-- **top**: Wyświetla top użytkowników z najwyższym poziomem mocy.
-- **resetpl**: Resetuje wszystkie dane pl (poziomów mocy).
-- **zoo**: Wysyła użytkownika do zoo (musisz mieć stworzony specjalnie kanał i skopiować jego ID).
-- **ora**: Wykonuje sekwencję cutscenki i banuje użytkownika.
-- **timeout**: Mutuje użytkownika na określony czas.
+- **pl**: Shows your power level.
+- **top**: Displays the top users with the highest power levels.
+- **resetpl**: Resets all EXP data.
+- **zoo**: Sends a user to the zoo.
+- **ora**: Executes a cutscene sequence and bans a user.
+- **timeout**: Mutes a user for a specified duration.
 
-### Przykłady
+### Examples
 
-- Aby sprawdzić swój poziom mocy, użyj komendy:
+- To check your power level, use the command:
 
     ```bash
     /pl
     ```
 
-- Aby wyświetlić top użytkowników, użyj komendy:
+- To display the top users, use the command:
 
     ```bash
     /top
     ```
 
-- Aby zresetować wszystkie dane PL(poziom mocy), użyj komendy:
+- To reset all EXP data, use the command:
 
     ```bash
     /resetpl
     ```
 
-## Wkład
+## Contributing
 
-Jeśli chcesz przyczynić się do rozwoju projektu, zapraszam do forka repozytorium i tworzenia pull requestów. Proszę upewnij się, że Twoje zmiany są dobrze udokumentowane i przetestowane.
+If you would like to contribute to the project, feel free to fork the repository and create pull requests. Please ensure that your changes are well-documented and tested.
 
+## License
 
-## Licencja
-
-Ten projekt jest licencjonowany na warunkach licencji MIT. Zobacz plik `LICENSE` po więcej informacji.
+This project is licensed under the MIT License. See the `LICENSE` file for more information.
