@@ -20,8 +20,8 @@ Discord Bot Jotarov3 to aplikacja, która oferuje różne funkcje, takie jak sys
 1. Sklonuj repozytorium na swój lokalny komputer:
 
     ```bash
-    git clone https://github.com/yourusername/Jotarov3.git
-    cd Jotarov3
+    git clone https://github.com/yourusername/discord-bot.git
+    cd discord-bot
     ```
 
 2. Zainstaluj wymagane zależności:
