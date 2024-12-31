@@ -1,13 +1,8 @@
-// /zoo <nick> - wysyła użytkownika do zoo
-// wytłumaczenie: komenda wysyła podanego użytkownika do kanału zoo id: 1253051956193394820
-// zabiera mu wszystkie role i nadaje mu role o id: 1253032430219034694
-
-
 module.exports = {
     callback: async (client, interaction) => {
         const member = interaction.options.get('target-user').member;
-        const channel = interaction.guild.channels.cache.get('1253051956193394820');
-        const role = interaction.guild.roles.cache.get('1253032430219034694'); 
+        const channel = interaction.guild.channels.cache.get('');
+        const role = interaction.guild.roles.cache.get(''); 
         
         if (!member) {
             await interaction.reply('Nie znaleziono użytkownika');

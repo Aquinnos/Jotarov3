@@ -10,7 +10,7 @@ module.exports = {
 
   callback: async (client, interaction) => {
     const mentionable = interaction.options.get('target-user').value;
-    const duration = interaction.options.get('duration').value; // 1d, 1 day, 1s 5s, 5m
+    const duration = interaction.options.get('duration').value; 
     const reason = interaction.options.get('reason')?.value || 'Brak podanego powodu';
 
     await interaction.deferReply();
@@ -37,9 +37,9 @@ module.exports = {
       return;
     }
 
-    const targetUserRolePosition = targetUser.roles.highest.position; // Highest role of the target user
-    const requestUserRolePosition = interaction.member.roles.highest.position; // Highest role of the user running the cmd
-    const botRolePosition = interaction.guild.members.me.roles.highest.position; // Highest role of the bot
+    const targetUserRolePosition = targetUser.roles.highest.position;
+    const requestUserRolePosition = interaction.member.roles.highest.position;
+    const botRolePosition = interaction.guild.members.me.roles.highest.position;
 
     if (targetUserRolePosition >= requestUserRolePosition) {
       await interaction.editReply("Nie możesz zmutować użytkownika z wyższą lub równą rolą niż ty.");

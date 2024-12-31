@@ -1,10 +1,3 @@
-// /ro <ilość wiadomości> - Reality Overwrite (Usuwa podaną ilosc wiadomosci z kanalu)
-// wytłumaczenie:
-// /*
-// Ma działać tak, że po wpisaniu komendy /ro bot usuwa podaną ilość wiadomości z kanału, który jest aktualnie używany. 
-// I po zrobieniu tego moze napisać bot: "Rzeczywistość została nadpisana"
-// */
-
 const {
     PermissionFlagsBits,
     ApplicationCommandOptionType,
