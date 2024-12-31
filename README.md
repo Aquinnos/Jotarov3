@@ -1,13 +1,13 @@
-# Discord Bot
+# Discord Bot Jotarov3
 
-Discord Bot to aplikacja, która oferuje różne funkcje, takie jak system antyspamowy, antyreklama, zarządzanie doświadczeniem użytkowników i inne. Bot jest napisany w JavaScript przy użyciu biblioteki Discord.js.
+Discord Bot Jotarov3 to aplikacja, która oferuje różne funkcje, takie jak system antyspamowy, antyreklama, zarządzanie doświadczeniem użytkowników i inne. Bot jest napisany w JavaScript przy użyciu biblioteki Discord.js.
 
 ## Funkcje
 
 - **Antyspam**: Automatycznie mutuje użytkowników, którzy wysyłają zbyt wiele wiadomości w krótkim czasie.
 - **Antyreklama**: Automatycznie usuwa wiadomości zawierające zaproszenia do innych serwerów Discord i nadaje użytkownikowi rolę "zoo".
 - **System doświadczenia**: Śledzi doświadczenie użytkowników na podstawie ich aktywności na czacie.
-- **Komendy**: Różne komendy do zarządzania botem i interakcji z użytkownikami, takie jak `pl`, `top`, `resetexp`, `zoo`, `ora`, `timeout`.
+- **Komendy**: Różne komendy do zarządzania botem i interakcji z użytkownikami, takie jak `pl`, `top`, `resetpl`, `zoo`, `ora`, `timeout`.
 
 ## Wymagania
 
