@@ -20,7 +20,7 @@ Discord Bot Jotarov3 is an application that offers various features such as anti
 1. Clone the repository to your local machine:
 
     ```bash
-    git clone https://github.com/yourusername/discord-bot.git
+    git clone https://github.com/aquinnos/discord-bot.git
     cd discord-bot
     ```
 
